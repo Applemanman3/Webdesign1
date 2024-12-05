@@ -1,0 +1,42 @@
+/*I'm using the stratigy you tought us to put our code through chat gpt
+to get comments on your code so its easier to go back and read for anyone */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    color: white;
+    gap: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px; /* Space between boxes */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: block; /* Each item treated as a block */
+}
+
+.navbar a {
+    display: block; /* Make the entire box clickable */
+    padding: 10px 20px; /* Adjust padding to create box shape */
+    background-color: #333; /* Box background color */
+    color: white;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgb(255, 25, 25); /* Add subtle shadow */
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #291d92; /* Change background color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}

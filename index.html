@@ -3,27 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ace's Resume</title>
     <link rel="stylesheet" href="/CSS/main.css">
-
+    <link rel="stylesheet" href="/CSS/home.css">
 
 
 </head>
-
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <ul>
-        <li><a href = "HTML/AboutMe.html">About Me</a>
-        <li><a href = "HTML/Projects.html">My Projects</a>
-        <li><a href =  "HTML/Resume.html">Resume</a>
-        <li><a href = "HTML/Contact.html">Contact Me</a>
+            <li><a href="HTML/AboutMe.html">About Me</a></li>
+            <li><a href="HTML/Projects.html">My Projects</a></li>
+            <li><a href="HTML/Resume.html">Resume</a></li>
+            <li><a href="HTML/Contact.html">Contact Me</a></li>
         </ul>
     </nav>
-    <h1>asdf</h1>
+
+
+    <!-- Main Content -->
+    <div class = "text-apper-in-middle">
+        <h1>Hello, My Name Is Ace McKnight<br>Welcome To My Website</h1>
+    </div>
+
+    <a href = "HTML/AboutMe.html">
+    <h1>About Me</h1>
+    <div class = "About-Me">
+        <img src="/Images/Ace Senior Picture.png" alt="Image 1" class="image">
+        <p>asdf</p>
+    </div>
+    </a>
+
+    <a href = "HTML/Contact.html">
+    <h1 class = "text-apper-on-right">Contact Me</h1>
+    <div class = "Contact-Me">
+        <p>asdf</p>
+        <img src="/Images/Ace of Spades.jpg " alt="Image 2" class="image" >
+    </div>
+    </a>
+
+    <a href = "HTML/Projects.html">
+    <h1 class = "text-apper-on-left">My Projects</h1>
+    <div class = "My-Projects">
+        <img src="/Images/binary.jpg" alt="Image 3" class="image">
+        <p>asdf</p>
+    </div>
+    </a>
+
+    <a href = "HTML/Resume.html">
+    <h1 class = "text-apper-on-right">Resume</h1>
+    <div class = "Contact-Me">
+        <p>asdf</p>
+        <img src="/Images/resume.jpg" alt="Image 4" class="image">
+    </div>
+    </a>
+
+
+    </body>
+
+
+      <!-- Background Video -->
+    <video class="video-background" autoplay loop muted>
+    <source src="/Video/fire.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class = "random-music">
+        <h3>Random Music Player</h3>
+        <button id="play-music-button">Play Random Song</button>
+        <audio id="audio-player" controls></audio>
+        <p id="current-song">No song playing</p>
+        </div>
+
+    </footer>
+
+    <script src="/JS/main.js"></script>
 </body>
-
-<footer>
-<h4>Ace McKnight</h4>
-</footer>
-
 </html>

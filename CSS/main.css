@@ -1,6 +1,25 @@
 /*I'm using the stratigy you tought us to put our code through chat gpt
 to get comments on your code so its easier to go back and read for anyone */
 
+#play-music-button{
+    display: flex;
+    justify-content:stretch;
+    align-items:flex-start;
+    padding: 15px 90px;
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Places content above the video */
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial, sans-serif;
+}
+
+
 .navbar {
     display: flex;
     justify-content: center;

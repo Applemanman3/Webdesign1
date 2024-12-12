@@ -8,16 +8,6 @@ to get comments on your code so its easier to go back and read for anyone */
     padding: 15px 90px;
     color: rgb(0, 0, 0);
 }
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;  
-}
-
 .random-music {
     display: flex;
     justify-content: center; 

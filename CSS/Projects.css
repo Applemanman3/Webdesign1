@@ -1,0 +1,40 @@
+
+/* Grid Layout */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+.project-image-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set height for your images */
+    overflow: hidden;
+}
+
+
+.github-link{
+    color:aqua
+    text-size
+}
+
+.project-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover .project-image-container img {
+    transform: scale(1.03); /* Scale image on hover */
+}
+
+
+.text-middle {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}

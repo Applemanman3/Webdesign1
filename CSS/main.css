@@ -1,6 +1,14 @@
 /*I'm using the stratigy you tought us to put our code through chat gpt
 to get comments on your code so its easier to go back and read for anyone */
 
+
+.text-middle {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
 #play-music-button{
     display: flex;
     justify-content:stretch;

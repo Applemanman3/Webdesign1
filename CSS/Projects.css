@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
 }
 
 
@@ -16,10 +15,7 @@
 }
 
 
-.github-link{
-    color:aqua
-    text-size
-}
+
 
 .project-image-container img {
     width: 100%;
@@ -30,11 +26,4 @@
 
 .grid-item:hover .project-image-container img {
     transform: scale(1.03); /* Scale image on hover */
-}
-
-
-.text-middle {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
 }

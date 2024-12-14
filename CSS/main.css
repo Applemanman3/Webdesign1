@@ -44,7 +44,7 @@ to get comments on your code so its easier to go back and read for anyone */
 
 .navbar ul {
     display: flex;
-    gap: 20px; /* Space between boxes */
+    gap: 8px; /* Space between boxes */
     list-style: none; /* Remove bullet points */
     padding: 0;
     margin: 0;

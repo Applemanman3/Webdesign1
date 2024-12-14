@@ -1,16 +1,37 @@
 .project-image-container {
-    position: relative;
-    width: 50%;
-    height: 50%; /* Set height for your images */
-    overflow: hidden;
+    display:flex;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+p {
+    font-size: 12px;
 }
 
 .project-image-container img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.project-image-container-JS img {
+    width: 90%;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
 .grid-item:hover .project-image-container img {
+    transform: scale(1.03); /* Scale image on hover */
+}
+
+
+
+.grid-item:hover .project-image-container-JS img {
     transform: scale(1.03); /* Scale image on hover */
 }

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/resume.css">
 
-
-    <h1>My resume</h1>
+    <h1 class = "text-middle">My resume</h1>
 </head>
 <body>
     <nav class="navbar">
@@ -19,20 +19,65 @@
         </ul>
     </nav>
 
+    <div class="resume-container">
+
+        <header>
+          <h1>Ace McKnight</h1>
+          <p>acepadraig@gmail.com | (715) 570-7863</p>
+        </header>
+
+        <section class="summary">
+          <h2>A little about me</h2>
+          <p>My name is Ace McKnight I grew up in Stevens Point Wisconsin. I love cooking and playing games
+            in my free time. I am going to collage for softwhere enginering in hopes of becoming a softwhre
+            developer in my futer.
+          </p>
+        </section>
+
+
+        <section class="experience">
+          <h2>Work Experience</h2>
+          <div class="job">
+            <h3>Frycook</h3>
+            <p class="company">Mcdonalds | March 2021 - Augest 2021</p>
+            <ul>
+              <li>Learned the basics of teamwork in a workplace invorment.</li>
+              <li>Learned how to work in a fast passed work inverment</li>
+              <li>Worked with mchinery for cooking dutys</li>
+            </ul>
+          </div>
+          <div class="job">
+            <h3>Consession stand worker</h3>
+            <p class="company"> Ice hawks arena | Nov 2023 - April 2024</p>
+            <ul>
+              <li>Worked with a cash register</li>
+              <li>interacted with customers</li>
+            </ul>
+          </div>
+        </section>
 
 
 
+        <section class="education">
+          <h2>Education</h2>
+          <p>Currently enrolled in Mid State tech collage for a softwhere enginering degree</p>
+        </section>
 
 
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </section>
+        <button id="printButton">Print Resume</button>
 
-    <footer>
-        <div class = "random-music">
-        <h3>Random Music Player</h3>
-        <button id="play-music-button">Play Random Song</button>
-        <audio id="audio-player" controls></audio>
-        <p id="current-song">No song playing</p>
-        </div>
-    </footer>
+      </div>
+
+      <script src="/JS/Projects.js"></script>
 
     <script src="/JS/main.js"></script>
 

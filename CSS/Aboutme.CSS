@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: antiquewhite;
 }
 
 /* Grid Layout */
@@ -16,6 +16,12 @@ body {
 }
 
 .grid-item {
+    width: 65%;
+    margin: 1% auto;
+    padding: 1%; 
+    background: rgb(250, 240, 240);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.438);
     width: calc(33.33% - 20px);
     position: relative;
     overflow: hidden;
@@ -25,8 +31,10 @@ body {
 .image-container {
     position: relative;
     width: 100%;
-    height: 200px; /* Set height for your images */
+    height: 200px; 
     overflow: hidden;
+    border-radius: 15px; 
+
 }
 
 .image-container img {

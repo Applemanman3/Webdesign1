@@ -79,7 +79,11 @@ ul li {
   padding: 5px 10px;
   margin: 5px;
   border-radius: 5px;
-  font-size: 0.9em;
+  font-size: 0.9em; 
+}
+
+.skills ul li:hover {
+  background: #0056b3;
 }
 
 /* Print Button Styling */
@@ -96,6 +100,7 @@ button#printButton {
 }
 
 button#printButton:hover {
+  transform: scale(1.1);
   background-color: #0056b3;
 }
 

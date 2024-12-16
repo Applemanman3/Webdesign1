@@ -5,6 +5,7 @@ body {
     background-color: #f4f4f4;
   }
   
+  /* This gives a cool box around the text and all of that */
   #contact {
     width: 80%;
     margin: 2rem auto;

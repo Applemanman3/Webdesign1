@@ -1,9 +1,58 @@
+body {
+    background-color: antiquewhite;
+}
+
 .project-image-container {
     display:flex;
     gap: 1px;
     justify-content: center;
     align-items: center;
 }
+
+/* Places content above the video */
+.contact {
+    width: 65%;
+    margin: 1% auto;
+    padding: 1%;
+    background: rgb(250, 240, 240);
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.438);
+}
+  
+.github-link {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; /* Space between the anchor and the paragraph */
+    padding: 10px 5px; /* Padding around the container */
+    color: rgb(0, 0, 0);
+}
+
+.github-link a {
+    display: block; /* Makes the entire box clickable */
+    padding: 10px 20px; /* Creates the box shape for the link */
+    background-color: #ffffff; /* Box background color */
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgb(67, 25, 255); /* Add subtle shadow */
+}
+
+.github-link a:hover {
+    color: #000000;
+    background-color: #921d1d7a; /* Change background color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.github-link p {
+    margin: 0; /* Removes default margin */
+    font-size: 16px; /* Adjust font size as needed */
+    color: rgb(0, 0, 0); /* Text color */
+}
+
 
 h2 {
     font-size: 27px;
@@ -21,16 +70,18 @@ p {
 }
 
 .project-image-container img {
-    width: 50%;
+    width: 70%;
     height: auto;
     transition: transform 0.3s ease;
 }
 
 
 .project-image-container-JS img {
-    width: 90%;
+    width: 100%;
     height: auto;
     transition: transform 0.3s ease;
+    border-radius: 50px;
+
 }
 
 .grid-item:hover .project-image-container img {
@@ -40,5 +91,5 @@ p {
 
 
 .grid-item:hover .project-image-container-JS img {
-    transform: scale(1.03); /* Scale image on hover */
+    transform: scale(1.07); /* Scale image on hover */
 }

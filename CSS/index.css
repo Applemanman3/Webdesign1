@@ -80,5 +80,5 @@ a:visited {
 }
 
 .image:hover {
-    transform: scale(1.1); /* Adds a zoom effect on hover */
+    transform: scale(1.04); /* Adds a zoom effect on hover */
 }

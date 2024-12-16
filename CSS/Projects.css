@@ -84,7 +84,7 @@ p {
 }
 
 .grid-item:hover .project-image-container img {
-    transform: scale(1.03); /* Scale image on hover */
+    transform: scale(1.01); /* Scale image on hover */
 }
 
 

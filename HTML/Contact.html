@@ -3,83 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
+    <!-- Link to external CSS files -->
     <link rel="stylesheet" href="/CSS/main.css">
-    <link rel="stylesheet" href="/CSS/Contacts.CSS">
-
-
+    <link rel="stylesheet" href="/CSS/Contacts.css">
 </head>
 <body>
+    <!-- Navigation bar -->
     <nav class="navbar">
         <ul>
-        <li><a href = "/index.html">Home</a>
-        <li><a href = "/HTML/AboutMe.html">About Me</a>
-        <li><a href = "/HTML/Projects.html">My Projects</a>
-        <li><a href = "/HTML/Resume.html">Resume</a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/HTML/AboutMe.html">About Me</a></li>
+            <li><a href="/HTML/Projects.html">My Projects</a></li>
+            <li><a href="/HTML/Resume.html">Resume</a></li>
         </ul>
     </nav>
 
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <section id="contact">
-    <h1>Contact Me</h1>
-    <form id="contactForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required placeholder="Your full name">
+    <!-- Contact section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <!-- Contact form -->
+        <form id="contactForm">
+            <!-- Name input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required placeholder="Your email address">
+            <!-- Email input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
 
-      <label for="company">Company:</label>
-      <input type="text" id="company" name="company" placeholder="Your company's name">
+            <!-- Company input -->
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" placeholder="Your company's name">
 
-      <fieldset>
-        <legend>What qualities do you look for in candidates?</legend>
-        <textarea id="qualities" name="qualities" rows="4" placeholder="Your answer here"></textarea>
-      </fieldset>
+            <!-- Textarea for qualities -->
+            <fieldset>
+                <legend>What qualities do you look for in candidates?</legend>
+                <textarea id="qualities" name="qualities" rows="4" placeholder="Your answer here"></textarea>
+            </fieldset>
 
-      <fieldset>
-        <legend>Which technologies are most important for this role?</legend>
-        <input type="checkbox" id="tech1" name="technologies" value="JavaScript">
-        <label for="tech1">JavaScript</label>
-        <input type="checkbox" id="tech2" name="technologies" value="Python">
-        <label for="tech2">Python</label>
-        <input type="checkbox" id="tech3" name="technologies" value="C#">
-        <label for="tech3">C#</label>
-      </fieldset>
+            <!-- Checkbox options for preferred programming languages -->
+            <fieldset>
+                <legend>Which language is most important for this role?</legend>
+                <input type="checkbox" id="tech1" name="technologies" value="JavaScript">
+                <label for="tech1">JavaScript</label>
+                <input type="checkbox" id="tech2" name="technologies" value="Python">
+                <label for="tech2">Python</label>
+                <input type="checkbox" id="tech3" name="technologies" value="C#">
+                <label for="tech3">C#</label>
+            </fieldset>
 
-      <fieldset>
-        <legend>How did you hear about me?</legend>
-        <input type="radio" id="linkedin" name="source" value="LinkedIn" required>
-        <label for="linkedin">LinkedIn</label>
-        <input type="radio" id="website" name="source" value="Website">
-        <label for="website">My Website</label>
-        <input type="radio" id="referral" name="source" value="Referral">
-        <label for="referral">Referral</label>
-      </fieldset>
+            <!-- Radio buttons for how the user heard about you -->
+            <fieldset>
+                <legend>How did you hear about me?</legend>
+                <input type="radio" id="linkedin" name="source" value="LinkedIn" required>
+                <label for="linkedin">LinkedIn</label>
+                <input type="radio" id="website" name="source" value="Website">
+                <label for="website">My Website</label>
+                <input type="radio" id="referral" name="source" value="Referral">
+                <label for="referral">Referral</label>
+            </fieldset>
 
-      <label for="date">Preferred contact date:</label>
-      <input type="date" id="date" name="contact-date" required>
+            <!-- Date input for preferred contact date -->
+            <label for="date">Preferred contact date:</label>
+            <input type="date" id="date" name="contact-date" required>
 
-      <label for="comments">Additional Comments:</label>
-      <textarea id="comments" name="comments" rows="4" placeholder="Any other details"></textarea>
+            <!-- Additional comments textarea -->
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any other details"></textarea>
 
-      <button type="submit">Submit</button>
-    </form>
-    <p id="feedback"></p>
-  </section>
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
 
-  <script src="/JS/Contacts.JS"></script>
-</body>
-</html>
+        <!-- Feedback message -->
+        <p id="feedback"></p>
+    </section>
 
-
+    <!-- Link to external JavaScript file -->
+    <script src="/JS/Contacts.js"></script>
 </body>
 </html>

@@ -4,85 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <!-- External CSS files -->
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/resume.css">
-
-    <h1 class = "text-middle">My resume</h1>
 </head>
 <body>
+    <!-- Page header -->
+    <h1 class="text-middle">My Resume</h1>
+
+    <!-- Navigation bar -->
     <nav class="navbar">
         <ul>
-        <li><a href = "/index.html">Home</a>
-        <li><a href = "/HTML/AboutMe.html">About Me</a>
-        <li><a href = "/HTML/Projects.html">My Projects</a>
-        <li><a href = "/HTML/Contact.html">Contact Me</a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/HTML/AboutMe.html">About Me</a></li>
+            <li><a href="/HTML/Projects.html">My Projects</a></li>
+            <li><a href="/HTML/Contact.html">Contact Me</a></li>
         </ul>
     </nav>
 
+    <!-- Resume content -->
     <div class="resume-container">
-
+        <!-- Header Section -->
         <header>
-          <h1>Ace McKnight</h1>
-          <p>acepadraig@gmail.com | (715) 570-7863</p>
+            <h1>Ace McKnight</h1>
+            <p>acepadraig@gmail.com | (715) 570-7863</p>
         </header>
 
+        <!-- Summary Section -->
         <section class="summary">
-          <h2>A little about me</h2>
-          <p>My name is Ace McKnight I grew up in Stevens Point Wisconsin. I love cooking and playing games
-            in my free time. I am going to collage for softwhere enginering in hopes of becoming a softwhre
-            developer in my futer.
-          </p>
+            <h2>A Little About Me</h2>
+            <p>
+                My name is Ace McKnight. I grew up in Stevens Point, Wisconsin. I love cooking and playing games
+                in my free time. I am currently attending college for software engineering in hopes of becoming a software
+                developer in the future.
+            </p>
         </section>
 
-
+        <!-- Experience Section -->
         <section class="experience">
-          <h2>Work Experience</h2>
-          <div class="job">
-            <h3>Frycook</h3>
-            <p class="company">Mcdonalds | March 2021 - Augest 2021</p>
-            <ul>
-              <li>Learned the basics of teamwork in a workplace invorment.</li>
-              <li>Learned how to work in a fast passed work inverment</li>
-              <li>Worked with mchinery for cooking dutys</li>
-            </ul>
-          </div>
-          <div class="job">
-            <h3>Consession stand worker</h3>
-            <p class="company"> Ice hawks arena | Nov 2023 - April 2024</p>
-            <ul>
-              <li>Worked with a cash register</li>
-              <li>interacted with customers</li>
-            </ul>
-          </div>
-        </section>
-
-
-
-        <section class="education">
-          <h2>Education</h2>
-          <p>Currently enrolled in Mid State tech collage for a softwhere enginering degree</p>
-        </section>
-
-          <section class="skills">
-            <h2>Skills</h2>
-            <div class = "text-middle">
-              <ul>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>C#</li>
-              </ul>
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Fry Cook</h3>
+                <p class="company">McDonald's | March 2021 - August 2021</p>
+                <ul>
+                    <li>Learned the basics of teamwork in a workplace environment.</li>
+                    <li>Adapted to working in a fast-paced environment.</li>
+                    <li>Operated cooking machinery and fulfilled kitchen duties.</li>
+                </ul>
             </div>
-          </section>
+            <div class="job">
+                <h3>Concession Stand Worker</h3>
+                <p class="company">Ice Hawks Arena | November 2023 - April 2024</p>
+                <ul>
+                    <li>Operated a cash register efficiently.</li>
+                    <li>Interacted with customers to ensure a positive experience.</li>
+                </ul>
+            </div>
+        </section>
 
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <p>Currently enrolled at Mid-State Technical College pursuing a Software Engineering degree.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="text-middle">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Print Button -->
         <button id="printButton">Print Resume</button>
+    </div>
 
-      </div>
-
-      <script src="/JS/Projects.js"></script>
-
+    <!-- External JavaScript files -->
+    <script src="/JS/Projects.js"></script>
     <script src="/JS/main.js"></script>
-
 </body>
 </html>

@@ -4,106 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ace's Resume</title>
+    <!-- External CSS files -->
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/index.css">
-
-
 </head>
 <body>
 
-
-
-<div class = "text-apper-in-middle">
-    <h1>Hello, My Name Is Ace McKnight Welcome To My Website</h1>
-</div>
-<!-- Navbar -->
-<nav class="navbar">
-    <ul>
-        <li><a href="HTML/AboutMe.html">About Me</a></li>
-        <li><a href="HTML/Projects.html">My Projects</a></li>
-        <li><a href="HTML/Resume.html">Resume</a></li>
-        <li><a href="HTML/Contact.html">Contact Me</a></li>
-    </ul>
-</nav>
-
-
-<div class = "grid-container">
-    <div class = "imagebox">
-        <a href = "HTML/AboutMe.html">
-        <h1 class = "text-above-image">About Me</h1>
-        <div class = "section-settings">
-            <img src="/Images/Ace Senior Picture.png" alt="Image 1" class="image">
-            <p>In this section of the webstie I talk about some of my hobbies
-            and other things I like to do in my free time</p>
-        </div>
-        </a>
+    <!-- Welcome Section -->
+    <div class="text-appear-in-middle">
+        <h1>Hello, My Name Is Ace McKnight. Welcome to My Website!</h1>
     </div>
 
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="HTML/AboutMe.html">About Me</a></li>
+            <li><a href="HTML/Projects.html">My Projects</a></li>
+            <li><a href="HTML/Resume.html">Resume</a></li>
+            <li><a href="HTML/Contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
 
-
-    <div class = "imagebox">
-        <a href = "HTML/Resume.html">
-            <h1 class = "text-above-image">Resume</h1>
-            <div class = "section-settings">
-                <img src="/Images/resume.jpg" alt="Image 4" class="image">
-                <p>In this section of the website I list my qualifications 
-                    and my eduction expirence</p>
-            </div>
-        </a>
-    </div>
-
-
-
-    <div class = "imagebox">
-        <a href = "HTML/Projects.html">
-        <h1 class = "text-above-image">My Projects</h1>
-            <div class = "section-settings">
-                <img src="/Images/binary.jpg" alt="Image 3" class="image">
-                <p>On this page I talk about my past current and futer proggraming projects.
-                This page will be updated with new projects as I make cooler and better things.
-                </p>
-            </div>
-        </a>
-    </div>
-
-
-
-    <div class  = "imagebox">
-        <a href = "HTML/Contact.html">
-            <h1 class = "text-above-image">Contact Me</h1>
-                <div class = "section-settings">
-                    <img src="/Images/Ace of Spades.jpg " alt="Image 2" class="image" >
-                    <p>This is the page you can use to reach out to me if you are intrested in my work
-                        and want to reach out to me about it.
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- About Me Section -->
+        <div class="imagebox">
+            <a href="HTML/AboutMe.html">
+                <h1 class="text-above-image">About Me</h1>
+                <div class="section-settings">
+                    <img src="/Images/Ace Senior Picture.png" alt="Ace Senior Picture" class="image">
+                    <p>In this section of the website, I talk about my hobbies and other things I enjoy doing in my free time.</p>
                 </div>
-        </a>
+            </a>
+        </div>
+
+        <!-- Resume Section -->
+        <div class="imagebox">
+            <a href="HTML/Resume.html">
+                <h1 class="text-above-image">Resume</h1>
+                <div class="section-settings">
+                    <img src="/Images/resume.jpg" alt="Resume" class="image">
+                    <p>In this section, I list my qualifications and educational experience.</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- My Projects Section -->
+        <div class="imagebox">
+            <a href="HTML/Projects.html">
+                <h1 class="text-above-image">My Projects</h1>
+                <div class="section-settings">
+                    <img src="/Images/binary.jpg" alt="Programming Projects" class="image">
+                    <p>On this page, I showcase my past, current, and future programming projects. This page will be updated as I work on new and exciting projects.</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Contact Me Section -->
+        <div class="imagebox">
+            <a href="HTML/Contact.html">
+                <h1 class="text-above-image">Contact Me</h1>
+                <div class="section-settings">
+                    <img src="/Images/Ace of Spades.jpg" alt="Ace of Spades" class="image">
+                    <p>Use this page to get in touch with me if you're interested in my work or want to collaborate.</p>
+                </div>
+            </a>
+        </div>
     </div>
 
-</div>
-
-
-    
-    </body>
-
-
-      <!-- Background Video -->
+    <!-- Background Video -->
     <video class="video-background" autoplay loop muted>
-    <source src="/Video/fire.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+        <source src="/Video/fire.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
 
-
+    <!-- Footer -->
     <footer>
-
-        <div class = "random-music">
-        <h3>Random Music Player</h3>
-        <button id="play-music-button">Play Random Song</button>
-        <audio id="audio-player" controls></audio>
-        <p id="current-song">No song playing</p>
+        <div class="random-music">
+            <h3>Random Music Player</h3>
+            <button id="play-music-button">Play Random Song</button>
+            <audio id="audio-player" controls></audio>
+            <p id="current-song">No song playing</p>
         </div>
-
     </footer>
 
+    <!-- JavaScript File -->
     <script src="/JS/main.js"></script>
 </body>
 </html>

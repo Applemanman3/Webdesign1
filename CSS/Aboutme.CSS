@@ -16,16 +16,16 @@ body {
 }
 
 .grid-item {
-    width: 65%;
+    width: calc(33.33% - 20px);
     margin: 1% auto;
     padding: 1%; 
     background: rgb(250, 240, 240);
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.438);
-    width: calc(33.33% - 20px);
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
+    transition: box-shadow 0.3s ease;
 }
 
 .image-container {
@@ -34,7 +34,6 @@ body {
     height: 200px; 
     overflow: hidden;
     border-radius: 15px; 
-
 }
 
 .image-container img {
@@ -54,7 +53,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .grid-item:hover .image-container img {
@@ -63,6 +62,11 @@ body {
 
 .grid-item:hover .overlay-text {
     opacity: 1; /* Show text on hover */
+    transform: translate(-50%, -40%); /* Slight upward shift */
+}
+
+.grid-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Left Text */
@@ -74,8 +78,22 @@ body {
     margin-top: 10px;
 }
 
+/* Center Alignment for Hobbies Section */
 .Some-of-my-hobbies {
     display: flex;
     justify-content: center; 
     align-items: center;  
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .grid-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-item {
+        width: 100%; /* Single column for small screens */
+    }
 }

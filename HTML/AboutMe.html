@@ -4,117 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <!-- Link to external CSS files -->
     <link rel="stylesheet" href="/CSS/main.css">
-    <link rel= "stylesheet" href="/CSS/Aboutme.CSS">
-
+    <link rel="stylesheet" href="/CSS/Aboutme.css">
 </head>
 <body>
+    <!-- Page heading -->
+    <h1 class="some-of-my-hobbies">Some of My Hobbies</h1>
 
-    <h1 class = "Some-of-my-hobbies">Some of my hobbies</h1>
-
-
+    <!-- Navigation bar -->
     <nav class="navbar">
         <ul>
-        <li><a href = "/index.html">Home</a>
-        <li><a href = "/HTML/Projects.html">My Projects</a>
-        <li><a href =  "/HTML/Resume.html">Resume</a>
-        <li><a href = "/HTML/Contact.html">Contact Me</a>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/HTML/Projects.html">My Projects</a></li>
+            <li><a href="/HTML/Resume.html">Resume</a></li>
+            <li><a href="/HTML/Contact.html">Contact Me</a></li>
         </ul>
     </nav>
 
+    <!-- Grid layout for hobbies -->
     <div class="grid-container">
-
+        <!-- Gaming hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/game.jpg" alt="Image 1">
+                <img src="/Images/game.jpg" alt="Image of a video game">
                 <p class="overlay-text">Gaming</p>
             </div>
-            <p class="left-text">I have alwayse enjoyed playing games because I feal it allowes me to connect with people better.</p>
+            <p class="left-text">I have always enjoyed playing games because I feel it allows me to connect with people better.</p>
         </div>
 
+        <!-- Walking hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/forest.jpg" alt="Image 2">
+                <img src="/Images/forest.jpg" alt="Image of a forest trail">
                 <p class="overlay-text">Walking</p>
             </div>
-            <p class="left-text">I love the way I feel exploring the forest and hiking trails.</p>
+            <p class="left-text">I love the way I feel while exploring the forest and hiking trails.</p>
         </div>
 
+        <!-- Reading hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/books.jpg" alt="Image 3">
+                <img src="/Images/books.jpg" alt="Image of books">
                 <p class="overlay-text">Reading</p>
             </div>
-            <p class="left-text">Reading is my escape from the fast paste world and allowes my brain to slow down.</p>
+            <p class="left-text">Reading is my escape from the fast-paced world and allows my brain to slow down.</p>
         </div>
 
+        <!-- Working out hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/punching-bags.jpg" alt="Image 4">
-                <p class="overlay-text">Working out</p>
+                <img src="/Images/punching-bags.jpg" alt="Image of punching bags">
+                <p class="overlay-text">Working Out</p>
             </div>
             <p class="left-text">I find a good workout is the best way to clear my mind and relax my body.</p>
         </div>
 
+        <!-- Music hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/vinyl-record.jpg" alt="Image 5">
+                <img src="/Images/vinyl-record.jpg" alt="Image of a vinyl record">
                 <p class="overlay-text">Music</p>
             </div>
-            <p class="left-text">I love music from listening to chill music to study to, all the way to hyped up music for working out.</p>
+            <p class="left-text">I love music, from listening to chill music to study to hyped-up music for working out.</p>
         </div>
 
+        <!-- Card games hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/cards.jpg" alt="Image 6">
-                <p class="overlay-text">Card games</p>
+                <img src="/Images/cards.jpg" alt="Image of playing cards">
+                <p class="overlay-text">Card Games</p>
             </div>
-            <p class="left-text">My family has raised me on card games my favorite are blackjack and poker.</p>
+            <p class="left-text">My family raised me on card games. My favorites are blackjack and poker.</p>
         </div>
 
+        <!-- Basketball hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/basketball.jpg" alt="Image 7">
+                <img src="/Images/basketball.jpg" alt="Image of a basketball">
                 <p class="overlay-text">Basketball</p>
             </div>
-            <p class="left-text">Basketball is great because it allowes me to be physicly active and I can be competitve with my friends.</p>
+            <p class="left-text">Basketball is great because it allows me to be physically active and competitive with my friends.</p>
         </div>
 
+        <!-- Cooking hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/cooking.jpg" alt="Image 8">
+                <img src="/Images/cooking.jpg" alt="Image of cooking">
                 <p class="overlay-text">Cooking</p>
             </div>
-            <p class="left-text">I have loved cooking sence i was a kid i try to make at least one new recipe a week and like to cook every meal for myself.</p>
+            <p class="left-text">I have loved cooking since I was a kid. I try to make at least one new recipe a week and cook every meal for myself.</p>
         </div>
 
+        <!-- Programming hobby -->
         <div class="grid-item">
             <div class="image-container">
-                <img src="/Images/proggraming.jpg" alt="Image 8">
-                <p class="overlay-text">Proggraming</p>
+                <img src="/Images/proggraming.jpg" alt="Image of programming">
+                <p class="overlay-text">Programming</p>
             </div>
-            <p class="left-text">I love making little projects or games that either hone my skills or make my life easier.</p>
+            <p class="left-text">I love making projects or games that hone my skills or make my life easier.</p>
         </div>
-
-
     </div>
 
-    
-
-
+    <!-- Footer with random music player -->
     <footer>
-    <div class = "random-music">
-    <h3>Random Music Player</h3>
-    <button id="play-music-button">Play Random Song</button>
-    <audio id="audio-player" controls></audio>
-    <p id="current-song">No song playing</p>
-    </div>
+        <div class="random-music">
+            <h3>Random Music Player</h3>
+            <button id="play-music-button">Play Random Song</button>
+            <audio id="audio-player" controls></audio>
+            <p id="current-song">No song playing</p>
+        </div>
     </footer>
 
-
-
+    <!-- Link to external JavaScript file -->
     <script src="/JS/main.js"></script>
 </body>
-
-
 </html>

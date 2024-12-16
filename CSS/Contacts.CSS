@@ -1,59 +1,99 @@
+/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  /* This gives a cool box around the text and all of that */
-  #contact {
-    width: 80%;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin: 0.5rem 0 0.2rem;
-  }
-  
-  input, textarea, button, select {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #0056b3;
-  }
-  
-  fieldset {
-    margin: 1rem 0;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    border-radius: 5px;
-  }
-  
-  legend {
-    font-weight: bold;
-  }
-  
-  #error {
-    color: red;
-  }
-  
+  font-family: Arial, sans-serif; /* Sets the font family for the body */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  background-color: #f4f4f4; /* Light gray background for the page */
+}
+
+/* Form Container */
+#contact {
+  width: 80%; /* Sets the width of the form container to 80% of the page */
+  margin: 2rem auto; /* Centers the form horizontally with vertical spacing */
+  padding: 2rem; /* Adds padding inside the form container */
+  background: white; /* Sets a white background for the form */
+  border-radius: 10px; /* Rounds the corners of the form container */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the form */
+}
+
+/* Form Elements Layout */
+form {
+  display: flex; /* Uses Flexbox to arrange the form elements */
+  flex-direction: column; /* Stacks the form elements vertically */
+}
+
+/* Label Styling */
+label {
+  margin-bottom: 0.3rem; /* Adds space below each label */
+}
+
+/* Styling for Textarea, Button, and Select */
+textarea, button, select {
+  width: 100%; /* Makes the input, textarea, and select fields stretch to full width */
+  max-width: 600px; /* Limits the width to 600px */
+  padding: 0.5rem; /* Adds padding inside the input fields */
+  margin-bottom: 1.1rem; /* Adds space below each field */
+  border: 1px solid #ccc; /* Light gray border for the fields */
+  border-radius: 5px; /* Rounds the corners of the input fields */
+}
+
+/* Focused Input Styling */
+input:focus, textarea:focus, select:focus {
+  outline: none; /* Removes the default focus outline */
+  border-color: #007BFF; /* Changes the border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a blue shadow on focus */
+}
+
+/* Button Styling */
+button {
+  background: #007BFF; /* Sets the button background to blue */
+  color: white; /* Makes the text color white */
+  border: none; /* Removes the default border */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  padding: 0.7rem; /* Adds padding inside the button */
+  font-size: 1rem; /* Sets the font size */
+}
+
+/* Button Hover Styling */
+button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+/* Button Active Styling */
+button:active {
+  transform: scale(0.98); /* Slightly shrinks the button on click */
+  background: #004085; /* Even darker blue when active */
+}
+
+/* Fieldset Styling */
+fieldset {
+  margin: 1.5rem 0; /* Adds vertical spacing around the fieldset */
+  border: 2px solid #007BFF; /* Blue border around the fieldset */
+  padding: 1.5rem; /* Adds padding inside the fieldset */
+  border-radius: 8px; /* Rounds the corners of the fieldset */
+}
+
+/* Legend Styling */
+legend {
+  font-size: 1.2rem; /* Sets the font size for the legend */
+  padding: 0 10px; /* Adds horizontal padding inside the legend */
+  color: #007BFF; /* Blue text color for the legend */
+  font-weight: bold; /* Makes the legend text bold */
+}
+
+/* Error Message Styling */
+#error {
+  color: red; /* Red text for the error message */
+  margin-top: -0.5rem; /* Reduces space above the error message */
+  margin-bottom: 1rem; /* Adds space below the error message */
+  font-size: 0.9rem; /* Smaller font size for error message */
+  background: #ffe6e6; /* Light red background for the error message */
+  padding: 0.5rem; /* Adds padding inside the error message box */
+  border-left: 3px solid red; /* Adds a red left border to the error message */
+}
+
+/* Invalid Input Styling */
+input:invalid, textarea:invalid, select:invalid {
+  border-color: red; /* Changes the border color to red for invalid inputs */
+  background: #ffe6e6; /* Changes the background to a light red for invalid fields */
+}

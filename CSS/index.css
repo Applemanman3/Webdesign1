@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    background-color: #303030; /* Dark background for contrast */
+    background-color: antiquewhite;
     color: rgb(255, 255, 255); /* White text for readability */
 }
 
@@ -58,6 +58,7 @@ a:visited {
     display: flex; /* Enables a flexible layout */
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
+    color: black;
 }
 
 /* Background Video Styling */

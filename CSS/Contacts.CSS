@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif; /* Sets the font family for the body */
   margin: 0; /* Removes default margin */
   padding: 0; /* Removes default padding */
-  background-color: #f4f4f4; /* Light gray background for the page */
+  background-color: antiquewhite;  /* Light gray background for the page */
 }
 
 /* Form Container */
